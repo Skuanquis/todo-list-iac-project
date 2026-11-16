@@ -1,0 +1,6 @@
+aws_region     = "us-east-1"
+aws_access_key = "TU_ACCESS_KEY"
+aws_secret_key = "TU_SECRET_KEY"
+
+ruta_clave_publica = "~/.ssh/tareas-key.pub"
+ruta_clave_privada = "~/.ssh/tareas-key"
