@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   parameters {
-    string(name: 'AWS_REGION', defaultValue: 'us-east-1', description: 'Región de AWS donde se despliega')
+    string(name: 'AWS_REGION', defaultValue: 'us-east-2', description: 'Región de AWS donde se despliega')
   }
 
   environment {

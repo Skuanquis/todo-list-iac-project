@@ -89,14 +89,14 @@ cp terraform.tfvars.example terraform.tfvars
 `terraform.tfvars` está en el `.gitignore` para que las credenciales no se suban al repositorio. Otra opción es no crear el archivo y pasar los valores como variables de entorno:
 
 ```bash
-export TF_VAR_aws_region="us-east-1"
+export TF_VAR_aws_region="us-east-2"
 export TF_VAR_aws_access_key="..."
 export TF_VAR_aws_secret_key="..."
 ```
 
 | Variable | Valor por defecto | Descripción |
 |----------|-------------------|-------------|
-| `aws_region` | `us-east-1` | Región de AWS |
+| `aws_region` | `us-east-2` | Región de AWS |
 | `aws_access_key` | | Access key de AWS |
 | `aws_secret_key` | | Secret key de AWS |
 | `nombre_proyecto` | `tareas` | Prefijo de los recursos |
