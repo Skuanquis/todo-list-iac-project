@@ -207,3 +207,7 @@ La instancia corriendo en EC2:
 Y la aplicación funcionando en la IP pública de la instancia:
 
 ![Aplicación en AWS](docs/app.png)
+
+Después se ejecutó el pipeline completo en Jenkins, que repitió el despliegue desde cero, pasó por todas las etapas y quedó esperando la confirmación antes de destruir la infraestructura:
+
+![Pipeline en Jenkins](docs/jenkins.png)
