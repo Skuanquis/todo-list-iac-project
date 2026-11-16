@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+<body>
+  <main>
+    <h1>Lista de tareas</h1>
+
+    <form id="formulario">
+      <input id="titulo" type="text" placeholder="Nueva tarea" autocomplete="off" required>
+      <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="tareas"></ul>
+    <p id="vacio">No hay tareas registradas</p>
+    <p id="resumen"></p>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

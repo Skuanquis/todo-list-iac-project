@@ -1,0 +1,13 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+tfplan
+*.pem
+*.pub
+.env
+
+.venv/
+__pycache__/
+.pytest_cache/
+resultados.xml
